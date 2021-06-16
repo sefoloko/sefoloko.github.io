@@ -1,0 +1,105 @@
+.heading-content{ 
+position: absolute;
+top: 40%;
+width: 100%;
+max-width: 100;
+color: aquamarine;
+
+}
+ 
+.heading-content h5{
+  font-size: 3em;
+  font-weight: 300;
+  font-family: sans-serif;
+   
+}  
+.heading-content h1{
+  font-size: 4em;
+  font-weight: bolder;
+  font-family: sans-serif;
+   
+}
+.heading-content p{
+  font-size: 2em;
+  font-weight: 500;
+  font-family: sans-serif;
+   
+} 
+
+#About .btn{
+  border: 2px solid red;
+  width: 40%;
+  padding: 15px 22px;
+  background: #000000;
+  border-radius:5px;
+  margin-top: 10px ;
+
+}
+ #About .btn a{
+   color: #fff;
+   text-decoration: none;
+   font-size: 1em;
+   font-weight: bold;
+
+
+ }
+#About .btn:hover{
+  border: 2px solid green;
+   text-decoration:solid red;
+   
+
+ }
+
+.centered{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+  .offset:before{
+display: block;
+content: "";
+height: 6rem;
+
+  }
+
+
+@media screen and (max-width:767px){
+ .navbar{
+  letter-spacing: 1em;
+  padding: 10px ;
+  
+  
+  }
+   
+  .heading-content h5{
+    font-size: 3em;
+     
+  }  
+  .heading-content h1{
+    font-size: 3em;
+  }
+  .heading-content p{
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width:479px){
+  .navbar{
+    letter-spacing: 0.7em;
+    padding: 5px ;
+    
+    }
+     
+    .heading-content h5{
+      font-size: 2em;
+       
+    }  
+    .heading-content h1{
+      font-size: 2em;
+    }
+    .heading-content p{
+      font-size: 0.5em;
+    }
+   
+}
