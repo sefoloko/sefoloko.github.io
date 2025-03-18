@@ -358,6 +358,7 @@ form .btn2{
 nav .fa-solid{
     display: none;
 }
+
 @media only screen and (max-width:600px){ 
     
     .header-text{
@@ -374,6 +375,7 @@ nav .fa-solid{
         font-size: 25px;
 
     }
+    
     nav ul{
         background: #ff004f;
         position: fixed;
@@ -423,7 +425,7 @@ nav .fa-solid{
     }
     .copyright{
         font-size: 14px;
-    } 
+    }
 }
 #msg{
     color: #61b752;
